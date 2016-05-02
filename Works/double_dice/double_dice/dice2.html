@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<title> dice2</title>
+		<script>
+			function rotate(diceid)
+			{
+				var RN=Math.floor(Math.random()*6)+1;
+				diceid.src="./image/dice"+RN+".jpg";
+			}
+		</script>
+	</head>
+	<body>
+		<button type="button" onclick="
+			var diceid1=document.getElementById('dice1');
+			rotate(diceid1);">
+			<img id="dice1" src="./image/dice1.jpg">
+			<p>click to rotate first dice</p>
+		</button>
+		<button type="button" onclick="
+			var diceid2=document.getElementById('dice2');
+			rotate(diceid2);">
+			<img id="dice2" src="./image/dice1.jpg">
+			<p>click to rotate second dice</p>
+		</button>
+		<br>
+		<button type="button" onclick="
+			var diceid1=document.getElementById('dice1');
+			var diceid2=document.getElementById('dice2');
+			rotate(diceid1);
+			rotate(diceid2);">
+			<p>click to rotate both dices</p>
+		</button>
+	</body>
+</html>
