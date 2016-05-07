@@ -30,3 +30,9 @@ Executable file for windows
 Unzip the file "find_word_windows.zip".
 
 Excute the file "find_word.exe".
+
+--------
+Citation
+--------
+
+Dictionary: "dict.txt", "https://www.cs.uoregon.edu/Classes/13F/cis210/assignments/base/dict.txt"
