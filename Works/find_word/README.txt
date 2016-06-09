@@ -20,7 +20,7 @@ User Case
 Compile and run
 ---------------
 
-Install python
+Install python2
 
 In the directory "find_word": Use the command "python find_word.py"
 
