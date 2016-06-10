@@ -21,11 +21,11 @@ Executable file for windows
 
 Unzip the file "Calendar_windows.zip".
 
-Excute the file "find_word.exe".
+Excute the file "Calenda_layout.exe".
 
----------
+-----
 Usage
----------
+-----
 
 Enter the year number you want to check.
 
