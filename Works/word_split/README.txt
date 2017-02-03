@@ -35,6 +35,8 @@ Enter the string that you want this program to split for you.
 
 Enter 'e' for exiting, enter anything else to continue.
 
+Note: it will take some time to split a large string, so please be patient if you entered a large string.
+
 --------
 Citation
 --------
