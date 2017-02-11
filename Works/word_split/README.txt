@@ -1,5 +1,5 @@
 Word Split
-------
+----------
 
 By: Honglu Xu
 
@@ -13,11 +13,10 @@ A program to try to split a string into English words. Will use two methods, ite
 Compile and run
 ---------------
 
+Linux:
 In the directory "word_split", Use the command "make"
 
-Run the program:
-Windows: "word_split.exe"
-Linux: "./word_split.out"
+Run the program: "./word_split.out"
 
 ---------------------------
 Executable file for windows
