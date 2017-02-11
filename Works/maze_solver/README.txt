@@ -40,6 +40,9 @@ Record
 Map-editing
 -----------
 The map file is "input.txt". Edit it to edit the map.
+The first line indicates how many mazes you want to solve.
+The second line indicates the size of the maze. '10' for a "10*10" maze. Be sure to match the number with the actual size of the maze!
+Then:
 1. '@' represents for the wall.
 2. 'x' (Lower case!) represents for the start posision. (Please put the start position on the edge of the map)
 3. '.' represents for the empty place. Leave an empty place on the edge of the map to represent the exit.
