@@ -28,7 +28,7 @@ In the directory "word_counter", Use the command "make"
 Usage
 -----
 
-After opening the program, type in the file path for the file (.txt prefer) that you want to count the words for, and type the "Ctrl+D" at the end of the file path.
+After opening the program, type in the file path for the file (.txt prefer) that you want to count the words for, type "Enter" and then type the "Ctrl+D" at the end of the file path.
 
 --------
 Citation
