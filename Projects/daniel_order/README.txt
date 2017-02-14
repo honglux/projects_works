@@ -24,3 +24,5 @@ Usage
 -----
 
 Click the "New User!!" when you first log into this website. You can either choose to be a restaurant owner or to be a customer. Then, open a new restaurant and edit it if you are a boss, or edit your own information and order some dishes from a restaurant when you are a customer. Since it's running on a server, people around the world can use this system at the same time. 
+
+Please do not contains any space or sign's for the names.
