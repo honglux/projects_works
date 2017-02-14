@@ -1,0 +1,9 @@
+<?php
+
+$server = "test";
+$dbname ="test";
+$user = "test";
+$pass = "test";
+$port="test";
+
+?>
