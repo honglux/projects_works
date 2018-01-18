@@ -1,0 +1,26 @@
+--------------
+Honglu Xu
+EECS 425
+Project 1
+Due 10/31/2017
+--------------
+
+Compile and Run
+---------------
+In the project1 folder, use command "javac proxyd.java", and then use the "java proxyd -port 5514" to run the proxy. Then, config the browser settings to use my porxy. 
+
+Port Number
+-----------
+I am using the port number "5514".
+
+Test Information
+----------------
+I tested on my local machine, which is running with Windows, and used the "Mozilla Firefox" and "Google Chrome" for browser tests.
+I have tested a lot of websites, such as "case.edu", "www.cnn.com", since "google.com" is running with https, I tested a Chinese web-based search engine site "www.baidu.com", and as long as the search functions provided by that site. Also "cluster41.case.edu/" for POST commands.
+
+Notes and Bugs
+--------------
+1. The performance is very slow. Since I decide transfer the data byte by byte, it will take some seconds to load a large image. And if it is a complicated site, mostly the timer will end before fully loaded.
+2. Some large and complicated sites will not be fully loaded. I set the timer to close the idle thread for 7 seconds. And while opening multiple complex sites, the CPU load will be 100%, so it will take longer and some times it will timer out before site fully loaded, no solution for now.
+3. A lot unhandled exceptions. Most of these exceptions is caused by thread-end before the site is fully loaded. The thread ending caused by the timer, and sometimes there still be some data sent to my server, and since the thread and socket ended, it throws the Exception. However, for now, it should be OK to leave it be. The main component will not be influenced by this.
+4. Relative path is not working for GET. The relative path is working for POST command. Fot the GET command, the web-page works well, but sometimes the image will not be loaded and it will cause http 302 direct to the error page.
