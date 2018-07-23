@@ -1,0 +1,16 @@
+-----------------------------------------------------------
+Apply Artificial Neural Netwrods on AIs to Play Video Games
+-----------------------------------------------------------
+
+Packages used
+-------------
+pygame, random, time, numpy, PIL, datetime, os, pgmpy, keras
+
+User Case
+---------
+To run the game, just simply use "Python Snake.py" in "src" folder, but you need all the needed packages to be installed with your python.
+
+All the other information will be talked in PDF files or Jupyter Notebook files, the Jupyter Notebook files contains the GIFs with short animation.
+
+The logical part will be talked in "Honglu_Xu_EECS491_FP.pdf" and "Honglu_Xu_EECS491_FP.ipynb"
+The vision part will be talked in "Honglu_Xu_EECS531_FP.pdf" and "Honglu_Xu_EECS531_FP.ipynb"
