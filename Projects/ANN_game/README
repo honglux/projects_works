@@ -14,3 +14,8 @@ All the other information will be talked in PDF files or Jupyter Notebook files,
 
 The logical part will be talked in "Honglu_Xu_EECS491_FP.pdf" and "Honglu_Xu_EECS491_FP.ipynb"
 The vision part will be talked in "Honglu_Xu_EECS531_FP.pdf" and "Honglu_Xu_EECS531_FP.ipynb"
+
+Methods Used
+------------
+Logical part: random input, decision tree, alpha-beta algorithm, artificial neural networks(dense).
+Vision part: feature detection, artificial neural networks (dense), artificial neural networks (2d convolution)
